@@ -205,8 +205,8 @@ variable "num_suffix_format" {
   default     = "-%d"
 }
 
-variable "region" {
-  description = "Numerical suffix format used as the volume and EC2 instance name suffix"
-  type        = string
+# variable "region" {
+#   description = "Numerical suffix format used as the volume and EC2 instance name suffix"
+#   type        = string
   
-}
+# }
